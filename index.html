@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calcolatrice cute</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <main>
+        <section class = container>
+
+            <article class = "calcolatrice">
+       
+               <section class = output>
+                   <input type="text" value="" id="text-box" placeholder="0" readonly></input>
+               </section>
+
+               <section class = "pulsanti">
+                   <button type="button" class = "pulsante funct" onclick = "cls()">CE</button>
+                   <button type="button" class = "pulsante funct" onclick = "del()">C</button>
+                   <button type="button" class = "pulsante funct" onclick = "display('%')">%</button> 
+                   <button type="button" class = "pulsante funct" onclick = "display('/')">&div;</button>
+                   <button type="button" class = "pulsante" onclick = "display('7')">7</button>
+                   <button type="button" class = "pulsante" onclick = "display('8')">8</button>
+                   <button type="button" class = "pulsante" onclick = "display('9')">9</button>
+                   <button type="button" class = "pulsante funct"  onclick = "display('*')">&times;</button>
+                   <button type="button" class = "pulsante" onclick = "display('4')">4</button>
+                   <button type="button" class = "pulsante" onclick = "display('5')">5</button>
+                   <button type="button" class = "pulsante" onclick = "display('6')">6</button>
+                   <button type="button" class = "pulsante funct" onclick = "display('-')">&minus;</button>
+                   <button type="button" class = "pulsante" onclick = "display('1')">1</button>
+                   <button type="button" class = "pulsante" onclick = "display('2')">2</button>
+                   <button type="button" class = "pulsante" onclick = "display('3')">3</button>
+                   <button type="button" class = "pulsante funct" onclick = "display('+')">&plus;</button>
+                   <button type="button" class = "pulsante" onclick = "display('.')">.</button>
+                   <button type="button" class = "pulsante" onclick = "display('0')">0</button>
+                   <button type="button" class = "pulsante uguale" onclick="calcola()">&equals;</button>
+               </section>
+       
+            </article>
+
+        </section>
+    </main>
+
+    <footer style="text-align: center;">&copy; 2021 by Klajdi Arapi. All Rights Reserved.</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
